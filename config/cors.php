@@ -5,7 +5,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000'],
+   'allowed_origins' => [
+    'http://localhost:3000',
+    'https://epespo-inventario-react-ldu4.vercel.app', // <--- tu frontend
+],
 
     'allowed_origins_patterns' => [],
 
